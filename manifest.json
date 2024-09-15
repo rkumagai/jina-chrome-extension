@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "TargetClip",
+  "version": "1.0",
+  "description": "Copy target URL response to clipboard",
+  "permissions": ["activeTab", "clipboardWrite", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "options_page": "options.html"
+}
