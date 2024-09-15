@@ -6,8 +6,6 @@ TargetClip is a Chrome extension that allows users to easily capture and copy th
 
 - One-click content extraction using a configurable target URL
 - Automatic copying of extracted content to clipboard
-- User-friendly popup interface
-- Displays the target URL for the current page
 - Configurable target URL template in the options page
 
 ## Installation
