@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TargetClip Options</title>
+  <style>
+    body { padding: 10px; font-family: Arial, sans-serif; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="text"] { width: 300px; margin-bottom: 10px; }
+    .hint { font-size: 0.9em; color: #666; margin-bottom: 15px; }
+    .button-container { margin-top: 10px; }
+    .button-container button { margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <h1>TargetClip Options</h1>
+  <label for="targetUrlTemplate">Target URL Template:</label>
+  <input type="text" id="targetUrlTemplate">
+  <div class="hint">
+    Use ${targetUrl} as a placeholder for the current page URL. 
+    Example: https://example.com/api?url=${targetUrl}
+  </div>
+  <div class="button-container">
+    <button id="save">Save</button>
+    <button id="reset">Reset to Default</button>
+  </div>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>
