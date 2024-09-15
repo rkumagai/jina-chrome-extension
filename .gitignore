@@ -1,0 +1,42 @@
+# Chrome Extension specific
+*.crx
+*.pem
+
+# Build output
+build/
+temp_package/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (if you decide to use npm packages in the future)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Personal configuration files (if any)
+config.json
+
+# Zip files (in case you manually create zip files)
+*.zip
+
+# Any other project-specific files or directories to ignore
+# Add them here
